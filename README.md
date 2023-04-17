@@ -4,12 +4,12 @@
 
 Assumes you have a App  Configuration store already deployed.
 
-##Set your store credentials using:
+## Set your store credentials using:
 
 dotnet user-secrets init
 dotnet user-secrets set ConnectionStrings:AppConfig "<your_connection_string>"
 
-##Configuration of App Configuration
+## Configuration of App Configuration
 Set the following key-values in configuration explorer
 Key	Value
 TestApp:Settings:BackgroundColor	white
